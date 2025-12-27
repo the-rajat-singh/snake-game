@@ -35,7 +35,7 @@ def info():
 
 @application.route("/users")
 def users():
-    return jsonify(["Rajat", "Aman", "DevOps-User"])
+    return jsonify(["Rajat", "Aman", "abhay"])
 
 
 if __name__ == "__main__":
