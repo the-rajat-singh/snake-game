@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DevOps Demo App</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 DevOps Demo Application</h1>
+
+        <p><b>Status:</b> Running</p>
+        <p><b>Environment:</b> {{ environment }}</p>
+        <p><b>Hostname:</b> {{ hostname }}</p>
+        <p><b>Version:</b> {{ version }}</p>
+
+        <hr>
+
+        <h3>Endpoints</h3>
+        <ul>
+            <li><a href="/health">/health</a></li>
+            <li><a href="/info">/info</a></li>
+            <li><a href="/users">/users</a></li>
+        </ul>
+    </div>
+</body>
+</html>
